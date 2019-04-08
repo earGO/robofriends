@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 const scrollStyle = {
     overflow:"scroll",
@@ -8,9 +7,7 @@ const scrollStyle = {
 }
 
 class Scroll extends React.Component {
-    constructor(props) {
-        super(props)
-    }
+
     render() {
         return (
             <div style={scrollStyle}>
